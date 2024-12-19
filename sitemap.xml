@@ -7,7 +7,7 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
-    
+
     <!-- About page -->
     <url>
         <loc>https://QA-K.github.io/about.html</loc>
@@ -47,7 +47,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
-    
+
     <!-- Our Team page -->
     <url>
         <loc>https://QA-K.github.io/teams/team.html</loc>
