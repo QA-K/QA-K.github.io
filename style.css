@@ -12,25 +12,31 @@ header {
     text-align: center;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
     margin: 0 10px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
 
 section {
-    padding: 20px;
+    margin: 20px;
 }
 
-h1, h2 {
+section h2 {
     color: #333;
 }
