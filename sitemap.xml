@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemap>
-    <!-- Home page -->
-    <url>
-        <loc>https://QA-K.github.io/home.html</loc>
-        <lastmod>2024-12-19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-
     <!-- Login page -->
     <url>
         <loc>https://QA-K.github.io/</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
+    </url>
+
+    <!-- Home page -->
+    <url>
+        <loc>https://QA-K.github.io/home.html</loc>
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
     </url>
 
     <!-- About page -->
