@@ -9,8 +9,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // 여기에 실제 로그인 로직을 추가할 수 있습니다.
     // 예시로 간단한 사용자 이름과 비밀번호 검증
-    const validUsername = 'user123';
-    const validPassword = 'password123';
+    const validUsername = 'admin00';
+    const validPassword = 'password@@';
 
     if (username === validUsername && password === validPassword) {
         alert('Login successful');
