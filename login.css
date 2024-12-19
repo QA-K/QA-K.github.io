@@ -1,0 +1,50 @@
+/* login.css */
+
+/* 로그인 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* 화면 가운데 정렬 */
+    align-items: center;
+    height: 100vh;
+}
+
+/* 로그인 박스 스타일 */
+.login-container {
+    background-color: #ffffff; /* 로그인 박스 배경 색 */
+    padding: 30px;
+    border-radius: 8px; /* 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    width: 100%;
+    max-width: 400px; /* 최대 너비 */
+    text-align: center;
+}
+
+/* 로그인 제목 */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* 로그인 버튼 스타일 */
+button {
+    width: 100%; /* 버튼 너비 */
+    padding: 12px;
+    background-color: #4CAF50; /* 버튼 배경 색 */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* 호버 효과 */
+}
+
+/* 버튼 호버 시 색상 변경 */
+button:hover {
+    background-color: #45a049; /* 호버 시 버튼 색상 */
+}
