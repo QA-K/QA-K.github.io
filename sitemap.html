@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Map</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- 스타일시트 연결 -->
 </head>
 <body>
     <header>
         <h1>Site Map</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sitemap.html">Site Map</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li> <!-- 홈 페이지 링크 -->
+                <li><a href="about.html">About</a></li> <!-- 어바웃 페이지 링크 -->
+                <li><a href="projects.html">Projects</a>
+                    <ul>
+                        <li><a href="projects/project1.html">Project 1</a></li> <!-- 프로젝트 1 페이지 링크 -->
+                        <li><a href="projects/project2.html">Project 2</a></li> <!-- 프로젝트 2 페이지 링크 -->
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li> <!-- 연락처 페이지 링크 -->
+                <li><a href="teams/team.html">Our Team</a></li> <!-- 팀 페이지 링크 -->
+                <li><a href="teams/history.html">Our History</a></li> <!-- 역사 페이지 링크 -->
             </ul>
         </nav>
     </header>
 
-    <section id="sitemap">
+    <section>
         <h2>Website Structure</h2>
+        <p>This page shows the structure of our website.</p>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a>
-                <ul>
-                    <li><a href="teams/team.html">Our Team</a></li>
-                    <li><a href="teams/history.html">Our History</a></li>
-                </ul>
-            </li>
+            <li><a href="index.html">Home</a></li> <!-- 홈 페이지 링크 -->
+            <li><a href="about.html">About</a></li> <!-- 어바웃 페이지 링크 -->
             <li><a href="projects.html">Projects</a>
                 <ul>
-                    <li><a href="projects/project1.html">Project 1</a></li>
-                    <li><a href="projects/project2.html">Project 2</a></li>
+                    <li><a href="projects/project1.html">Project 1</a></li> <!-- 프로젝트 1 링크 -->
+                    <li><a href="projects/project2.html">Project 2</a></li> <!-- 프로젝트 2 링크 -->
                 </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li> <!-- 연락처 페이지 링크 -->
+            <li><a href="teams/team.html">Our Team</a></li> <!-- 팀 페이지 링크 -->
+            <li><a href="teams/history.html">Our History</a></li> <!-- 역사 페이지 링크 -->
         </ul>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
 </body>
 </html>
