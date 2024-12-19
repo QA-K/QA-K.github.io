@@ -1,44 +1,29 @@
+<!-- login.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Home</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sitemap.html">Sitemap</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message" style="color: red; display: none;">Invalid username or password</p>
+    </div>
 
-    <section>
-        <h2>About Us</h2>
-        <p>Learn more about our website and team! We are a talented team dedicated to delivering the best solutions.</p>
-    </section>
-
-    <section>
-        <h2>Our Projects</h2>
-        <p>Check out our exciting projects, showcasing our creativity and technical expertise!</p>
-    </section>
-
-    <section>
-        <h2>Contact Us</h2>
-        <p>Have any questions or want to get in touch? Feel free to reach out!</p>
-    </section>
-
-    <footer>
-        <p style="font-size: 12px; text-align: center;">
-            <a href="https://QA-K.github.io/sitemap.xml" target="_blank">Sitemap Test</a>
-        </p>
-    </footer>
+    <script src="login.js"></script>
 </body>
 </html>

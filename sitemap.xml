@@ -2,7 +2,7 @@
 <sitemap>
     <!-- Home page -->
     <url>
-        <loc>https://QA-K.github.io/</loc>
+        <loc>https://QA-K.github.io/home.html</loc>
         <lastmod>2024-12-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
