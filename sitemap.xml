@@ -8,6 +8,14 @@
         <priority>1.0</priority>
     </url>
 
+    <!-- Login page -->
+    <url>
+        <loc>https://QA-K.github.io/</loc>
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
     <!-- About page -->
     <url>
         <loc>https://QA-K.github.io/about.html</loc>
