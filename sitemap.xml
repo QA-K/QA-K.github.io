@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap>
+    <!-- Login page -->
+    <url>
+        <loc>https://QA-K.github.io/Login/login.php</loc> <!-- 로그인 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Home page -->
+    <url>
+        <loc>https://QA-K.github.io/Main/home.php</loc> <!-- 홈 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- About page -->
+    <url>
+        <loc>https://QA-K.github.io/Main/about.php</loc> <!-- About 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Projects page -->
+    <url>
+        <loc>https://QA-K.github.io/Main/projects.php</loc> <!-- Projects 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Project 1 page -->
+    <url>
+        <loc>https://QA-K.github.io/projects/project1.html</loc> <!-- Project 1 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Project 2 page -->
+    <url>
+        <loc>https://QA-K.github.io/projects/project2.html</loc> <!-- Project 2 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Contact page -->
+    <url>
+        <loc>https://QA-K.github.io/Main/contact.php</loc> <!-- Contact 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Our Team page -->
+    <url>
+        <loc>https://QA-K.github.io/Teams/team.html</loc> <!-- Team 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Our History page -->
+    <url>
+        <loc>https://QA-K.github.io/Teams/history.html</loc> <!-- History 페이지 URL -->
+        <lastmod>2024-12-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+</sitemap>
